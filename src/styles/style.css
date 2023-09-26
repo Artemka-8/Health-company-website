@@ -11,13 +11,16 @@ h1, h2, h3, h4, h5, h6, p{
 }
 img{
   display: block;
+
   max-width: 100%;
+
   border: none;
 }
 ul, ul li {
-	list-style: none;
   margin: 0;
   padding: 0;
+
+	list-style: none;
 }
 a, a:link, a:visited  {
   text-decoration: none;
@@ -26,30 +29,34 @@ a:hover  {
   text-decoration: none;
 }
 body{
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400; 
+  margin: 0; 
+
   color: var(--grey-color);
   background-color: #fff;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 .conteiner {
-  max-width: 1400px;
   width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .btn {
+  align-items: center;
+
   width: 180px;
   height: 50px;
   padding: 10px 20px;
-  align-items: center;
 
   color: var(--white-color);
-  line-height: 25px;
-  font-size: 20px;
+  border: 1px solid #01996D;
 
   border-radius: 4px;
-  border: 1px solid #01996D;
   background: #01996D;
+
+  font-size: 20px;
+  line-height: 25px;
 }
 :root{
   --background-color: #245852;;
@@ -58,18 +65,21 @@ body{
   --white-color:#fff;
 }
 .text-h2{
+  max-width: 584px;
+
+  letter-spacing: 3px;
+  word-spacing: -8px;
+
+  color: var(--accent-color);
+
   font-family: 'PT Serif', serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 157%;
-  color: var(--accent-color);
-
-  max-width: 584px;
-  word-spacing: -8px;
-  letter-spacing: 3px;
 }
 .text-h3{
   color: #000;
+
   font-family: 'PT Serif', serif;
   font-size: 30px;
   font-weight: 700;
@@ -82,16 +92,20 @@ body{
 
 .menu {
   padding: 27px 0;
+
   text-align: center;
+
+  border-bottom:1px solid #D6D6D6;
+
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
   font-weight: 500;
-  border-bottom:1px solid #D6D6D6;
 }
 .menu__grid {
-  margin: 0 15px;
   display: grid;
   justify-content: space-between;
+
+  margin: 0 15px;
   grid-template-columns: 80px 666px 280px;
 }
 .menu-logo {
@@ -115,11 +129,12 @@ body{
 
 .head {
   min-height: 895px;
-  background-image: linear-gradient(to left, rgba(89,106,114, 0.0)60%, rgba(255, 255, 255, 0.9)), url(../img/background-menu.jpeg);
-  background-position: left 200px top 65%;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   border: none;
+  background-image: linear-gradient(to left, rgba(89,106,114, 0.0)60%, rgba(255, 255, 255, 0.9)), url(../img/background-menu.jpeg);
+  background-repeat: no-repeat;
+  background-position: left 200px top 65%;
+  background-size: cover;
   
 }
 .conteiner-head{
@@ -128,15 +143,18 @@ body{
 
 .h1 {
   max-width: 440px;
-  padding-top: 160px;
   margin-bottom: 25px;
-  color: var(--accent-color);
-  font-family: 'PT Serif', serif;
-  line-height: 78px;
-  word-spacing: 4px;
+  padding-top: 160px;
+
   letter-spacing: 2px;
+  word-spacing: 4px;
+
+  color: var(--accent-color);
+
+  font-family: 'PT Serif', serif;
   font-size: 65px;
   font-weight: 700;
+  line-height: 78px;
 }
 .p-head {
   max-width: 420px;
@@ -152,8 +170,8 @@ body{
   padding: 190px 0 100px;
 }
 .steps p {
-  padding-top: 25px;
   max-width: 650px;
+  padding-top: 25px;
 }
 .conteiner-steps{
   padding: 0 15px;
@@ -162,18 +180,20 @@ body{
   position: relative;
 }
 .h2-steps::before{
-  content: "How it works";
-  font-family: 'Nunito', sans-serif;
-  font-size: 24px;
-  color: var(--grey-color);
-  font-weight: 600;
-  line-height: 157%; 
-  word-spacing: 0.5px;
-  letter-spacing: 0.5px;
-
   position: absolute;
   top: -32px;
   left: 0px;
+
+  content: "How it works";
+  letter-spacing: 0.5px; 
+  word-spacing: 0.5px;
+
+  color: var(--grey-color);
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 157%;
 }
 
 .steps__flex {
@@ -182,8 +202,8 @@ body{
 }
 
 .card {
-  padding-top: 90px;
   margin-bottom: 50px;
+  padding-top: 90px;
 }
 
 .card__grid {
@@ -197,27 +217,34 @@ body{
 }
 
 .h3-card1{
-  text-align: center;
-  padding-bottom: 55px;
-  padding-right: 60px;
   position: relative;
+
+  padding-right: 60px;
+  padding-bottom: 55px;
+
+  text-align: center;
 }
 .h3-card2{
-  padding-bottom: 50px;
-  padding-top: 290px;
   position: relative;
+
+  padding-top: 290px;
+  padding-bottom: 50px;
 }
 .h3-card3{
-  padding-bottom: 40px;
-  padding-top: 60px;
   position: relative;
+
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .h3-card1::before{
   position: absolute;
   bottom: 0px;
   left: 0px;
+
   content: '01';
+
   color: rgba(1, 153, 109, 0.20);
+
   font-size: 150px;
   font-weight: 400;
   line-height: 150%; 
@@ -226,8 +253,11 @@ body{
   position: absolute;
   bottom: 0px;
   left: 0px;
+
   content: '02';
+
   color: rgba(1, 153, 109, 0.20);
+
   font-size: 150px;
   font-weight: 400;
   line-height: 150%;
@@ -236,8 +266,11 @@ body{
   position: absolute;
   bottom: 0px;
   left: 0px;
+
   content: '03';
+
   color: rgba(1, 153, 109, 0.20);
+
   font-size: 150px;
   font-weight: 400;
   line-height: 150%;
@@ -261,11 +294,12 @@ body{
 
 .video {
   padding: 205px 15px 135px;
+
   background: #245852;
 }
 .conteiner-video{
-  max-width: 1500px;
   width: 100%;
+  max-width: 1500px;
   margin: 0 auto;
 }
 .video__flex {
@@ -276,29 +310,35 @@ body{
 
 .video-h2 {
   max-width: 580px;
-  color:var(--white-color);
   margin-top: 105px;
   margin-bottom: 33px;
+
+  color:var(--white-color);
 }
 
 .p-video {
   max-width: 550px;
   margin-bottom: 20px;
+
+  color: var(--white-color);
+
   font-size: 25px;
   line-height: 157%;
-  color: var(--white-color);
 }
 .button-video {
-  width: 240px;
-  height: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  width: 240px;
+  height: 65px;
 }
 
 .a-video{
   position: relative;
+
   display: block;
+
   width: 100%;
 }
 
@@ -317,15 +357,16 @@ body{
   padding: 120px 15px 240px;
 }
 .conteiner-product {
-  max-width: 1500px;
   width: 100%;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 10px;
   
 }
 .our-product__grid {
-  padding-left: 115px;
   display: grid;
+
+  padding-left: 115px;
   grid-template-columns: repeat(2, 1fr);
   gap: 90px;
 
@@ -335,12 +376,12 @@ body{
 }
 
 .customized-for__card {
+  position: absolute;
+  bottom: -75px;
+  left: -55px;
+
   width: 296px;
   height: 293px;
-
-  position: absolute;
-  left: -55px;
-  bottom: -75px;
 
   border-radius: 3.73px;
   background: #FFF;
@@ -349,45 +390,57 @@ body{
 .h5-customized-for {
   margin-top: 20px;
   margin-bottom: 7px;
-  color: #000;
+
   text-align: center;
+
+  color: #000;
+
   font-size: 14.49px;
   line-height: 157%; 
 }
 .line {
   width: 110px;
   height: 0.7px;
-  background: #000;
   margin: 0 auto;
   margin-bottom: 10px;
+
+  background: #000;
 }
 .img-customized-for {
-  border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 10px;
+
+  border-radius: 50%;
 }
 .p-name{
   width: 45px;
   margin: 0 auto;
+  margin-bottom: 20px;
+
   color: #000;
+
   font-size: 11.935px;
   line-height: 157%;
-  margin-bottom: 20px;
 }
 .p-customized-for{
   width: 180px;
   margin: 0 auto;
+  margin-bottom: 15px;
+
   color: #000;
+
   font-size: 15.929px;
   font-weight: 700;
   line-height: 157%;
-  margin-bottom: 15px;
 }
 .ul-customized-for{
   width: 180px;
   margin: 0 auto;
+
   text-align: left;
+
   color: #000;
+
   font-size: 10.619px;
   font-weight: 400;
   line-height: 157%; 
@@ -400,25 +453,28 @@ body{
 }
 
 .h2-our-product {
-  max-width: 584px;
   position: relative;
-  margin-bottom: 20px;
+
+  max-width: 584px;
   margin-top: 35px;
+  margin-bottom: 20px;
   padding-top: 15px;
 }
 .h2-our-product::before {
-  content: "Our product";
-  font-family: 'Nunito', sans-serif;
-  font-size: 25px;
-  color: var(--grey-color);
-  font-weight: 600;
-  line-height: 157%; 
-  word-spacing: 0.5px;
-  letter-spacing: 0.5px;
-
   position: absolute;
   top: -32px;
   left: 0px;
+
+  content: "Our product";
+  letter-spacing: 0.5px; 
+  word-spacing: 0.5px;
+
+  color: var(--grey-color);
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 157%;
 }
 
 .p-our-product {
@@ -433,32 +489,44 @@ body{
 
 .footer {
   padding: 100px 15px 155px;
-  background-color: #245852;
+
   color: var(--white-color);
+  background-color: #245852;
 }
 
 .conteiner-footer{
-  max-width: 1375px;
   width: 100%;
+  max-width: 1375px;
   margin: 0 auto;
 }
 
 .h3-footer {
+  margin-bottom: 60px;
+
   font-family: 'Lato', sans-serif;
   font-size: 40px;
   font-weight: 900;
-  margin-bottom: 60px;
 }
 .footer__list-item {
+  margin-bottom: 60px;
+
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 60px;
 }
 .footer__list-item:last-child {
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 1240px){
+
+}
+@media screen and (max-width: 940px){
+  
+}
+@media screen and (max-width: 670px){
+  
+}
 
 
 
